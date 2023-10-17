@@ -1,0 +1,30 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "target": "esnext",
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "baseUrl": ".",
+    "paths": {
+      "~Root/*": ["./src/*"]
+    },
+    "types": [
+      "node"
+    ] /* Type declaration files to be included in compilation. */
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "include": [
+    "./**/*",
+    "./*",
+    ".eslintrc.js",
+    "declarations.d.ts",
+    "overwrite.d.ts",
+    "react-native-video-controls.d.ts"
+  ]
+}

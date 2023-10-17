@@ -1,0 +1,6 @@
+{
+  "replaceAttrValues": {
+    "primaryColor": "{props.primaryColor}",
+    "secondaryColor": "{props.secondaryColor}"
+  }
+}
